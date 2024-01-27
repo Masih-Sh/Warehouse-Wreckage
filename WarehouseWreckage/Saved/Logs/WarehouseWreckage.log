@@ -5633,3 +5633,17 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2024.01.27-16.33.11:094][537]AssetCheck: New page: Asset Save: Main
 [2024.01.27-16.33.11:094][537]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
 [2024.01.27-16.33.17:518][913]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2024.01.27-16.40.16:974][468]BlueprintLog: New page: Collapse to Function
+[2024.01.27-16.41.49:744][994]LogDerivedDataCache: C:/Users/masih/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.049 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1917 files in 2946 folders with total size 110 MiB.
+[2024.01.27-16.42.14:223][186]BlueprintLog: New page: Compile Main
+[2024.01.27-16.42.14:246][186]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.01.27-16.42.16:824][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.01.27-16.42.16:829][324]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-16.42.16:892][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="../../../../../../UnrealEngine/Warehouse-Wreckage/WarehouseWreckage/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.01.27-16.42.16:909][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2024.01.27-16.42.16:940][324]LogSavePackage: Moving output files for package: /Game/Main
+[2024.01.27-16.42.16:940][324]LogSavePackage: Moving '../../../../../../UnrealEngine/Warehouse-Wreckage/WarehouseWreckage/Saved/MainA5BE17D84D5748B4BC89D9B43FA22E0A.tmp' to '../../../../../../UnrealEngine/Warehouse-Wreckage/WarehouseWreckage/Content/Main.umap'
+[2024.01.27-16.42.16:947][324]LogFileHelpers: Saving map 'Main' took 0.055
+[2024.01.27-16.42.16:953][324]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 2.22 sec)
+[2024.01.27-16.42.16:956][324]AssetCheck: New page: Asset Save: Main
+[2024.01.27-16.42.16:956][324]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
