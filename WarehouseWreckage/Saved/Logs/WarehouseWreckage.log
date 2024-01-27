@@ -1688,3 +1688,107 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2024.01.27-12.19.46:459][729]LogFileHelpers: InternalPromptForCheckoutAndSave took 129 ms
 [2024.01.27-12.19.46:460][729]AssetCheck: New page: Asset Save: Main
 [2024.01.27-12.19.46:460][729]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
+[2024.01.27-12.37.52:342][276]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2024.01.27-12.37.52:482][276]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=21972
+[2024.01.27-12.37.57:483][291]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2024.01.27-12.37.57:818][292]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{ca2f34be-8b35-4439-8c5d-4b2d26346e55}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=5059.66
+[2024.01.27-12.37.57:818][292]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.01.27-12.37.57:819][292]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.01.27-12.37.58:150][293]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=21972
+[2024.01.27-12.37.58:486][294]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{ca2f34be-8b35-4439-8c5d-4b2d26346e55}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=182.67
+[2024.01.27-12.37.58:486][294]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.01.27-12.37.58:487][294]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.01.27-12.41.49:749][988]LogDerivedDataCache: C:/Users/masih/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.057 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1911 files in 2937 folders with total size 110 MiB.
+[2024.01.27-12.55.07:667][381]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (WH-1000XM4), InstanceID=1
+[2024.01.27-12.55.07:921][381]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=21972
+[2024.01.27-12.55.08:253][382]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{da48a72a-5f8f-4025-9bd9-78e58616ded7}, Name=Headphones (WH-1000XM4)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=301.20
+[2024.01.27-12.55.08:253][382]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.01.27-12.55.08:255][382]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.01.27-13.00.09:744][425]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack02.SM_Rack02
+[2024.01.27-13.00.09:745][425]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack02.SM_Rack02
+[2024.01.27-13.00.09:746][425]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack02.SM_Rack02 as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_0
+[2024.01.27-13.00.13:590][655]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack02.SM_Rack02
+[2024.01.27-13.00.13:590][655]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack02.SM_Rack02
+[2024.01.27-13.00.13:592][655]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack02.SM_Rack02 as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_2
+[2024.01.27-13.00.16:501][824]Cmd: TRANSACTION UNDO
+[2024.01.27-13.00.16:501][824]LogEditorTransaction: Undo Create Actors
+[2024.01.27-13.00.22:787][172]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack02.SM_Rack02
+[2024.01.27-13.00.22:787][172]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack02.SM_Rack02
+[2024.01.27-13.00.22:787][172]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack02.SM_Rack02 as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_3
+[2024.01.27-13.00.50:773][356]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack02.SM_Rack02
+[2024.01.27-13.00.50:773][356]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack02.SM_Rack02
+[2024.01.27-13.00.50:774][356]LogActorFactory: Actor Factory spawned StaticMesh /Game/IndustryPropsPack6/Meshes/SM_Rack02.SM_Rack02 as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_5
+[2024.01.27-13.01.45:687][232]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.01.27-13.01.45:688][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="../../../../../../UnrealEngine/Warehouse-Wreckage/WarehouseWreckage/Saved/Autosaves/Game/Main_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2024.01.27-13.01.45:709][232]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Main_Auto3
+[2024.01.27-13.01.45:709][232]LogSavePackage: Moving '../../../../../../UnrealEngine/Warehouse-Wreckage/WarehouseWreckage/Saved/Main_Auto3F115C2B041741851D5EE8CA683085C2F.tmp' to '../../../../../../UnrealEngine/Warehouse-Wreckage/WarehouseWreckage/Saved/Autosaves/Game/Main_Auto3.umap'
+[2024.01.27-13.01.45:712][232]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../UnrealEngine/Warehouse-Wreckage/WarehouseWreckage/Saved/Autosaves/Game/Main_Auto3.umap is in the /Temp path, will not scan.
+[2024.01.27-13.01.45:712][232]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Main_Auto3 is in the /Temp path, will not scan.
+[2024.01.27-13.01.45:712][232]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Main_Auto3 is in the /Temp path, will not scan.
+[2024.01.27-13.01.45:712][232]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Main' took 0.035
+[2024.01.27-13.01.45:712][232]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.035
+[2024.01.27-13.09.00:760][294]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.27-13.09.00:764][294]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.27-13.09.00:764][294]PIE: New page: PIE session: Main (27 Jan 2024, 13:09:00)
+[2024.01.27-13.09.00:798][294]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2024.01.27-13.09.00:806][294]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007063s)
+[2024.01.27-13.09.00:806][294]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.007114s)
+[2024.01.27-13.09.00:815][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.01.27-13.09.00:816][294]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-13.09.00:816][294]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-13.09.00:816][294]LogAIModule: Creating AISystem for world Main
+[2024.01.27-13.09.00:817][294]LogPlayLevel: PIE: World Init took: (0.000965s)
+[2024.01.27-13.09.00:817][294]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.01.27-13.09.00:817][294]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.27-13.09.00:817][294]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.27-13.09.00:817][294]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.27-13.09.00:817][294]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.27-13.09.00:817][294]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.27-13.09.00:817][294]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.27-13.09.00:817][294]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.27-13.09.00:817][294]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.27-13.09.00:817][294]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.27-13.09.00:817][294]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.27-13.09.00:817][294]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.27-13.09.00:819][294]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.27-13.09.00:832][294]LogAudioMixer: Display: Using Audio Hardware Device Headphones (WH-1000XM4)
+[2024.01.27-13.09.00:833][294]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.27-13.09.00:833][294]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.27-13.09.00:833][294]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.27-13.09.00:834][294]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.01.27-13.09.00:834][294]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.01.27-13.09.00:835][294]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.01.27-13.09.00:835][294]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.01.27-13.09.00:835][294]LogInit: FAudioDevice initialized with ID 7.
+[2024.01.27-13.09.00:835][294]LogAudio: Display: Audio Device (ID: 7) registered with world 'Main'.
+[2024.01.27-13.09.00:835][294]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.01.27-13.09.00:837][294]LogLoad: Game class is 'GameModeBase'
+[2024.01.27-13.09.00:840][294]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2024.01.27-13.09.00
+[2024.01.27-13.09.00:840][294]LogWorld: Bringing up level for play took: 0.002456
+[2024.01.27-13.09.00:842][294]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2024.01.27-13.09.00:843][294]LogBlueprintUserMessages: [Main_C_0] lets beggin wrecking
+[2024.01.27-13.09.00:843][294]LogBlueprintUserMessages: [Main_C_0] wrecking begins shortly!
+[2024.01.27-13.09.00:843][294]PIE: Server logged in
+[2024.01.27-13.09.00:844][294]PIE: Play in editor total start time 0.079 seconds.
+[2024.01.27-13.09.12:355][980]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-13.09.12:355][980]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2024.01.27-13.09.12:355][980]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-13.09.12:355][980]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-13.09.12:358][980]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.27-13.09.12:361][980]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-13.09.12:368][980]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-13.09.12:368][980]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.01.27-13.09.12:368][980]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.01.27-13.09.12:370][980]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.01.27-13.09.12:375][980]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.01.27-13.09.12:420][981]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2024.01.27-13.09.57:614][338]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-13.09.57:673][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="../../../../../../UnrealEngine/Warehouse-Wreckage/WarehouseWreckage/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.01.27-13.09.57:690][338]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.01.27-13.09.57:708][338]LogSavePackage: Moving output files for package: /Game/Main
+[2024.01.27-13.09.57:708][338]LogSavePackage: Moving '../../../../../../UnrealEngine/Warehouse-Wreckage/WarehouseWreckage/Saved/Main24AFABDE48A4B974AD5C00999493A0A8.tmp' to '../../../../../../UnrealEngine/Warehouse-Wreckage/WarehouseWreckage/Content/Main.umap'
+[2024.01.27-13.09.57:714][338]LogFileHelpers: Saving map 'Main' took 0.042
+[2024.01.27-13.09.57:723][338]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 237 ms)
+[2024.01.27-13.09.57:724][338]AssetCheck: New page: Asset Save: Main
+[2024.01.27-13.09.57:724][338]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
+[2024.01.27-13.10.01:204][530]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
